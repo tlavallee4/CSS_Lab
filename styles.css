@@ -1,15 +1,43 @@
+body {
+    font-family: "Garamond", serif;
+}
 footer p {
     padding: 0.5em 1em;
-    border: 2px solid black;
+    border: 2px solid #d0e69e;
     margin: 1em;
+    background-color: #e0f1bb;
+    color: #7b8f4e;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 li a {
     display: block;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #ffc0cb;
-    color: white;
+    background-color: #ffc2c3;
+    color: #fa92b1;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    color: #fa92b1;
+    background-color: #aec5f1;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 10px;
 }
 
 .articles article {
@@ -20,5 +48,13 @@ li a {
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    background-color:  #fde4de;
+    padding: 1em;
+    color: #fa92b1
 }
 
