@@ -3,3 +3,22 @@ footer p {
     border: 2px solid black;
     margin: 1em;
 }
+
+li a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffc0cb;
+    color: white;
+}
+
+.articles article {
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    background-color: #fff4e6;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
