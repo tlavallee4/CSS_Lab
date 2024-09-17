@@ -1,6 +1,11 @@
+/* Full body styling */
 body {
     font-family: "Garamond", serif;
+    background-color: #f9f2db;
+    text-align: center;
 }
+
+/* Footer paragraph styling */
 footer p {
     padding: 0.5em 1em;
     border: 2px solid #d0e69e;
@@ -12,6 +17,7 @@ footer p {
     right: 10px;
 }
 
+/* List/Navigation styling */
 li a {
     display: block;
     padding: 10px;
@@ -26,6 +32,7 @@ nav {
     justify-content: center;
 }
 
+/* Hover effect in navigation links styling */
 a:hover{
     color: #fa92b1;
     background-color: #aec5f1;
@@ -40,16 +47,18 @@ nav li {
     margin: 10px;
 }
 
+/* Article styling */
 .articles article {
     text-align: center;
     display: inline-block;
     width: 40%;
-    background-color: #fff4e6;
+    background-color: #fce9cf;
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
 }
 
+/* Header styling */
 header {
     position: relative;
     text-align: center;
@@ -58,3 +67,18 @@ header {
     color: #fa92b1
 }
 
+/* Grid styling */
+.grid-section {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: white
+    }
+}
